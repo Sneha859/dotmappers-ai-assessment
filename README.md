@@ -18,6 +18,26 @@ The system uses a local LLM through Ollama for natural-language-to-SQL generatio
 * Automated tests using Pytest
 * No paid APIs
 
+## Screenshots
+
+### Dashboard
+
+The Streamlit dashboard provides dataset status, local LLM status, natural-language querying, and anomaly detection.
+
+![Dashboard](docs/images/dashboard.png)
+
+### Natural-Language Querying
+
+Users can ask questions in natural language. The system generates safe SQL, executes it against DuckDB, and displays the verified result with an explanation.
+
+![Natural Language Query](docs/images/natural-language-query.png)
+
+### Anomaly Detection
+
+The system provides IQR-based resolution-time anomaly detection along with weekly anomalies and stale High/Critical ticket detection.
+
+![Anomaly Detection](docs/images/anomaly-detection.png)
+
 ## Architecture
 
 ```text
