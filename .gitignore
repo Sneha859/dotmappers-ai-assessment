@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Environment files
+.env
+.env.*
+
+# Streamlit
+.streamlit/
+
+# IDE / editor files
+.vscode/
+
+# OS files
+.DS_Store
+
+# Windows metadata files
+*Zone.Identifier
